@@ -1,0 +1,14 @@
+body{
+	font-family: 'Trebuchet MS';
+	font-size: 14pt;
+	background-image: url(../imagens/background.png);
+}
+
+.formulario{
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #eae8e8;
+	border-radius: 5px;
+}
