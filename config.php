@@ -9,5 +9,4 @@ spl_autoload_register(function($class){
 		require_once DIRETORIO.'/models/'.$class.'.php';
 	}else
 		require_once DIRETORIO.'/core/'.$class.'.php';
-
 });
