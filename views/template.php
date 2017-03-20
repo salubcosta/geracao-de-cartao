@@ -28,7 +28,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gerar Cartão <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php echo URL; ?>/cartaofrente">Cartão Frente</a></li>
-                <li><a href="<?php echo URL; ?>/cartao">Cartão Verso</a></li>
+                <li><a href="<?php echo URL; ?>/cartaoverso">Cartão Verso</a></li>
               </ul>
             </li>
           </ul>
