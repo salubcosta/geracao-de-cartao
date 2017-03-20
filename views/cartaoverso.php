@@ -1,4 +1,4 @@
-<div class="formulario">
+<div class="painel">
 <h4 class="text-danger"><span class="glyphicon glyphicon-saved"></span> Geração de Cartão</h4>
 <form>
   <div class="form-group">
