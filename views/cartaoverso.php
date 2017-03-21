@@ -1,9 +1,9 @@
 <div class="painel">
 <h4 class="text-danger"><span class="glyphicon glyphicon-saved"></span> Geração de Cartão</h4>
-<form>
+<form method="POST">
   <div class="form-group">
     <label class="text-info" for="inputNome">Nome:</label>
-    <input type="text" class="form-control" id="inputNome" placeholder="Informe seu nome">
+    <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Informe seu nome">
   </div>
   <div class="form-group">
     <label class="text-info" for="inputCargo">Cargo:</label>
