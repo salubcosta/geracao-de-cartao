@@ -23,12 +23,12 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-        		<li><a href="<?php echo URL; ?>/home">Início</a></li>
+        		<li><a href="<?php echo URL; ?>/home"><span class="glyphicon glyphicon-home"></span> Início</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gerar Cartão <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="<?php echo URL; ?>/cartaofrente">Cartão Frente</a></li>
-                <li><a href="<?php echo URL; ?>/cartaoverso">Cartão Verso</a></li>
+                <li><a href="<?php echo URL; ?>/cartaofrente"><span class="glyphicon glyphicon-log-in"></span>&nbsp; Cartão Frente</a></li>
+                <li><a href="<?php echo URL; ?>/cartaoverso"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Cartão Verso</a></li>
               </ul>
             </li>
           </ul>
@@ -42,6 +42,11 @@
 		<?php $this->carregarView($view, $array); ?>	  	
 	  </div>
 	</div>
+</div>
+<div class=" ">
+  <div class="text-center">
+    <p class="text-muted">Desenvolvido por - <a href="http://www.salumao.com.br" target="_blank" class="btn btn-default">Salumao.com.br</a></p>
+  </div>
 </div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<?php echo URL; ?>/assets/js/bootstrap.min.js"></script>

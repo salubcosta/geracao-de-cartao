@@ -1,12 +1,16 @@
+
 body{
 	font-family: 'Trebuchet MS';
 	font-size: 14pt;
 	background-image: url(../imagens/background.png);
+	margin-bottom: 60px;
 }
 
 .painel{
 	max-width: 600px;
+	min-height: 550px;
 	margin: auto;
+	margin-bottom: 150px;
 	padding: 10px;
 	background: #fff;
 	border: 1px solid #eae8e8;

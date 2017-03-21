@@ -3,32 +3,32 @@
 <form method="POST">
   <div class="form-group">
     <label class="text-info" for="inputNome">Nome:</label>
-    <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Informe seu nome">
+    <input type="text" class="form-control" id="inputNome" name="nome" required="true" placeholder="Informe seu nome">
   </div>
   <div class="form-group">
     <label class="text-info" for="inputCargo">Cargo:</label>
-    <input type="text" class="form-control" id="inputCargo" placeholder="Informe seu Cargo">
+    <input type="text" class="form-control" id="inputCargo" name="cargo" required="true" placeholder="Informe seu Cargo">
   </div>
   <div class="form-group pull-left margin">
     <label class="text-info">Telefone:</label>
-    <input type="text" class="form-control" name="telefone" onkeyup="mascara(this, mascaratelefone);" maxlength="15" placeholder="Informe seu Telefone">
+    <input type="text" class="form-control" name="telefone" onkeyup="mascara(this, mascaratelefone);" maxlength="15" required="true" placeholder="Informe seu Telefone">
   </div>
   <div class="form-group pull-left">
     <label class="text-info">WhatsApp:</label>
-    <input type="text" class="form-control" name="Whatsapp" onkeyup="mascara(this, mascaratelefone);" maxlength="15" placeholder="Informe seu nº Whatsapp">
+    <input type="text" class="form-control" name="whatsapp" onkeyup="mascara(this, mascaratelefone);" maxlength="15" required="true" placeholder="Informe seu nº Whatsapp">
   </div>
   <div style="clear: both;">
   <div class="form-group">
     <label class="text-info" for="inputSkype">Skype:</label>
-    <input type="text" class="form-control" id="inputSkype" placeholder="Informe seu Skype">
+    <input type="text" class="form-control" id="inputSkype" name="skype" required="true" placeholder="Informe seu Skype">
   </div>
   <div class="form-group">
     <label class="text-info" for="inputEndereco">Endereço:</label>
-    <input type="text" class="form-control" id="inputEndereco" placeholder="Informe seu Endereço">
+    <input type="text" class="form-control" id="inputEndereco" name="endereco" required="true"placeholder="Informe seu Endereço">
   </div>
   <div class="form-group">
     <label class="text-info" for="inputEmail">E-mail:</label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="Informe seu e-mail">
+    <input type="email" class="form-control" id="inputEmail" name="email" required="true"placeholder="Informe seu e-mail">
   </div>
   
   <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-save"></span> Gerar Cartão</button>
