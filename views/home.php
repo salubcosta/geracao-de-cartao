@@ -1,13 +1,10 @@
 <div class="painel">
 	<h4 class="text-info">Olá, seja bem-vindo!</span></h4>
 	<hr />
-
 	<?php
 		$cartao = new cartao();
-
 		$urlCartaoVerso =  !$cartao->verificarCartaoVerso() ? "'#'"." disabled=\"true\"" : "'".URL."/cartaogerado'";
 		$urlRemoverCartaoVerso =  !$cartao->verificarCartaoVerso() ? "'#'"." disabled=\"true\"" : "'".URL."/removercartaoverso'";
-
 	?>
 	<p class="text-muted">
 		Baixar Cartão-Frente disponível: <a href="<?php echo URL;?>/cartaofrente" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Cartão-Frente</a>
