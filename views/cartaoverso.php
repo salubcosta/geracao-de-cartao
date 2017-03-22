@@ -30,6 +30,14 @@
     <label class="text-info" for="inputEmail">E-mail:</label>
     <input type="email" class="form-control" id="inputEmail" name="email" required="true"placeholder="Informe seu e-mail">
   </div>
+  <div class="form-group">
+    <label class="text-danger" for="dropdowntipo">Escolha como gostaria de gerar o cartão:</label>
+    <select class="form-control" name="tipo">
+      <option selected="true">Frente e Verso</option>
+      <option>Verso</option>
+    </select>
+
+  </div>
   <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-save"></span> Gerar Cartão</button>
 </form>
 </div>

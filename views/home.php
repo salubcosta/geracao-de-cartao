@@ -10,7 +10,7 @@
 		Baixar Cartão-Frente disponível: <a href="<?php echo URL;?>/cartaofrente" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Cartão-Frente</a>
 	</p>
 	<p class="text-muted">
-		Baixar Cartão-Verso disponível: &nbsp;<a href=<?php echo $urlCartaoVerso ;?> class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Último Cartão-Verso</a>
+		Baixar Último Cartão Gerado: &nbsp;<a href=<?php echo $urlCartaoVerso ;?> class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Baixar Cartão</a>
 	</p>
 	<hr />
 	<p class="text-muted">

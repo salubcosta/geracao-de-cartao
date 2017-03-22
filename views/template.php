@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="uft8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Geração de Cartão</title>
 	<link href="<?php echo URL; ?>/assets/css/estilo.css" rel="stylesheet">
 	<link href="<?php echo URL; ?>/assets/css/bootstrap.min.css" rel="stylesheet">

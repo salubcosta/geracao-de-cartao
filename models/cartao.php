@@ -59,7 +59,7 @@ class cartao{
 		return $this->email;
 	}
 
-	public function gerarCartao(){
+	public function gerarCartaoVerso(){
 		header('Content-type: image/png');
 
 		require_once 'environment.php';
@@ -82,6 +82,35 @@ class cartao{
 		imagettftext($img, $fontSize1, 0, 110, 248, $color, $font1, $this->getSkype());
 		imagettftext($img, $fontSize1, 0, 110, 292, $color, $font1, $this->getEndereco());
 		imagettftext($img, $fontSize1, 0, 110, 328, $color, $font1, $this->getEmail());
+
+		imagepng($img,DIRETORIO."/assets/imagens/cartaogerado.png");
+		imagedestroy($img);
+		header('Location: '.URL.'/cartaogerado');
+	}
+
+	public function gerarCartaoFrenteeVerso(){
+		header('Content-type: image/png');
+
+		require_once 'environment.php';
+
+		$img = imagecreatefrompng(URL.'/assets/imagens/cartaofrenteeverso.PNG');
+
+		imagefill($img, 0, 0, imagecolorallocate($img, 220, 220, 220));
+
+		$font1 = DIRETORIO."/assets/fonts/trebuchetms.ttf";
+
+		$fonteTopo = 26;
+		$fontSize1 = 20;
+
+		$color = imagecolorallocate($img, 0,0,0);
+
+		imagettftext($img, $fonteTopo, 0, 50, 580, $color, $font1, $this->getNome());
+		imagettftext($img, $fontSize1, 0, 50, 620, $color, $font1, $this->getCargo());
+		imagettftext($img, $fontSize1, 0, 105, 705, $color, $font1, $this->getTelefone());
+		imagettftext($img, $fontSize1, 0, 350, 700, $color, $font1, $this->getWhatsApp());
+		imagettftext($img, $fontSize1, 0, 110, 748, $color, $font1, $this->getSkype());
+		imagettftext($img, $fontSize1, 0, 110, 788, $color, $font1, $this->getEndereco());
+		imagettftext($img, $fontSize1, 0, 110, 828, $color, $font1, $this->getEmail());
 
 		imagepng($img,DIRETORIO."/assets/imagens/cartaogerado.png");
 		imagedestroy($img);

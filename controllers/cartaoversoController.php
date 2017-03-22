@@ -13,7 +13,11 @@ class cartaoversoController extends controller{
 				$cartao->setEndereco($_POST['endereco']);
 				$cartao->setEmail($_POST['email']);
 
-		        $cartao->gerarCartao();
+				if($_POST['tipo'] == "Verso"){
+					$cartao->gerarCartaoVerso();
+				}else{
+					$cartao->gerarCartaoFrenteeVerso();
+				}
 		 }else{
 		 	$this->carregarTemplate('cartaoverso',[]);
 		 }
