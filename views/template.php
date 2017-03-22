@@ -9,7 +9,6 @@
     <script type="text/javascript" src="<?php echo URL; ?>/assets/js/mascaratelefone.js"></script>
 </head>
 <body>
-
 <nav class="navbar navbar-default navbar-static-top">
 	<div class="container">
 		<div class="navbar-header">
