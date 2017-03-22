@@ -1,8 +1,7 @@
 <?php
-$cartao = new cartao();
-$urlRemoverCartaoVerso =  !$cartao->verificarCartaoVerso() ? "'#'"." disabled=\"true\"" : "'".URL."/deleteimg'";
+	$cartao = new cartao();
+	$urlRemoverCartaoVerso =  !$cartao->verificarCartaoVerso() ? "'#'"." disabled=\"true\"" : "'".URL."/deleteimg'";
 ?>
-
 <div class="painel">
 	<h3 class="text-danger">Você tem certeza que deseja excluir o cartão-verso?</h3>
 	<hr />

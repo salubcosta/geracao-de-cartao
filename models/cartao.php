@@ -64,11 +64,11 @@ class cartao{
 
 		require_once 'environment.php';
 
-		$img = imagecreatefrompng(URL.'/assets/imagens/cartaoverso.png');
+		$img = imagecreatefrompng(URL.'/assets/imagens/cartaoverso.PNG');
 
 		imagefill($img, 0, 0, imagecolorallocate($img, 220, 220, 220));
 
-		$font1 = "assets/fonts/trebuchetms.ttf";
+		$font1 = DIRETORIO."/assets/fonts/trebuchetms.ttf";
 
 		$fonteTopo = 26;
 		$fontSize1 = 20;

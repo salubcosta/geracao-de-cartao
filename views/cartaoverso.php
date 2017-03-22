@@ -30,7 +30,6 @@
     <label class="text-info" for="inputEmail">E-mail:</label>
     <input type="email" class="form-control" id="inputEmail" name="email" required="true"placeholder="Informe seu e-mail">
   </div>
-  
   <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-save"></span> Gerar Cartão</button>
 </form>
 </div>
