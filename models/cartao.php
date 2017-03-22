@@ -85,7 +85,7 @@ class cartao{
 
 		imagepng($img,DIRETORIO."/assets/imagens/cartaogerado.png");
 		imagedestroy($img);
-		//header('Location: '.URL.'/cartaogerado');
+		header('Location: '.URL.'/cartaogerado');
 	}
 
 	public function verificarCartaoVerso(){
