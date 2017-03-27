@@ -14,11 +14,11 @@
 	</p>
 	<hr />
 	<p class="text-muted">
-		Geração de novo Cartão-Verso: <a href="<?php echo URL;?>/cartaoverso" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Geração de Cartão-Verso</a>
+		Geração de novo Cartão: <a href="<?php echo URL;?>/cartaoverso" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Geração de Cartão</a>
 	</p>
 	<hr />
 	<p class="text-muted">
-		Remover Cartão-Verso gerado: <a href=<?php echo $urlRemoverCartaoVerso;?> class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Remover Cartão-Verso</a>
+		Remover Último Cartão gerado: <a href=<?php echo $urlRemoverCartaoVerso;?> class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Remover Cartão</a>
 	</p>
 	
 	
