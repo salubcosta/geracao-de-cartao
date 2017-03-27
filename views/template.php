@@ -27,7 +27,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gerar Cartão <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php echo URL; ?>/cartaofrente"><span class="glyphicon glyphicon-log-in"></span>&nbsp; Cartão Frente</a></li>
-                <li><a href="<?php echo URL; ?>/cartaoverso"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Cartão Verso</a></li>
+                <li><a href="<?php echo URL; ?>/cartaoverso"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Gerar Cartão Frente-Verso</a></li>
               </ul>
             </li>
           </ul>
