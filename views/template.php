@@ -37,9 +37,7 @@
 
 <div class="container">
 	<div class="pagination-centered">
-	  <div class="">
 		<?php $this->carregarView($view, $array); ?>	  	
-	  </div>
 	</div>
 </div>
 <div class=" ">
