@@ -14,12 +14,12 @@ Este projeto trata-se da geração de cartão de visita de clientes de forma
 
 2. Utilizado framework do twitter, vulgo - bootstrap.
 
-=================
+===
 
 A ideia básica é que as pessoas interessadas em representar determinada empresa, acesse o sistema, preencha os dados
 e imprima a frente e verso do cartão. Tanto a empresa quanto quanto os representantes ganham com este projeto.
 
-=================
+===
 
 # Trabalhos futuros:
 
