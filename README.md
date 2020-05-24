@@ -1,31 +1,31 @@
 # geracao-de-cartao
 
-Este projeto trata-se da geraÁ„o de cart„o de visita de clientes de forma
+Este projeto trata-se da gera√ß√£o de cart√£o de visita de clientes de forma din√¢mica 
 
-## OrientaÁ„o:
+## Orienta√ß√£o:
 
-1. Configurar o arquivo .htaccess para acessar o diretÛrio de instalaÁaı correto.
+1. Configurar o arquivo .htaccess para acessar o diret√≥rio de instala√ß√£o correto.
 
 2. Configurar o arquivo environment.php para definir a constante URL.
 
-## InformaÁıes:
+## Informa√ß√µes:
 
-1. Projeto criado no Padr„o MV
+1. Projeto criado no Padr√£o MVC
 
 2. Utilizado framework do twitter, vulgo - bootstrap.
 
-===
+<hr />
 
-A ideia b·sica È que as pessoas interessadas em representar determinada empresa, acesse o sistema, preencha os dados
-e imprima a frente e verso do cart„o. Tanto a empresa quanto quanto os representantes ganham com este projeto.
+A ideia b√°sica √© que as pessoas interessadas em representar determinada empresa, acesse o sistema, preencha os dados
+e imprima a frente e verso do cart√£o. Tanto a empresa quanto quanto os representantes ganham com este projeto.
 
-===
+<hr />
 
 # Trabalhos futuros:
 
-1. Implementar uma geraÁ„o mais din‚mica, com o usu·rio informando as posiÁıes do texto.
+1. Implementar uma gera√ß√£o mais din√¢mica, com o usu√°rio informando as posi√ß√µes do texto.
 
-2. Implementar upload para tornar o processo din‚mico.
+2. Implementar upload para tornar o processo din√¢mico.
 
 3. Implementar login
 
